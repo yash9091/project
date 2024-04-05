@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple E-Commerce Store</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+  <h1><span>Upto  50% off on Selective Services!</span></h1>
+  <form action="#" method="get">
+    <input type="text" name="search" placeholder="Search...">
+    <button type="submit">Search</button>
+  </form>
+</header>
+<main>
+    <div class="wrapper">
+        <div class="categories">
+            <div class="category">
+                <img src="https://cdn5.vectorstock.com/i/1000x1000/73/44/isometric-laundry-service-vector-19437344.jpg" width="300px" height="250px">
+              <h2>Laundry</h2>
+            </div>
+            <div class="category">
+                <img src="./images/dryclean.jpg" width="300px" height="250px">
+        
+              <h2>Dry Clean</h2>
+            </div>
+        
+            <div class="category" >
+                <img src="./images/sofa.jpg" width="300px" height="250px">
+        
+                <h2>Upholstery</h2>
+              </div>
+        
+              <div class="category" >
+                <img src="./images/iron.jpg" width="300px" height="250px">
+        
+                <h2>Steam Ironing</h2>
+              </div>
+
+              <div class="category" >
+                <img src="./images/home cleaning.jpg" width="300px" height="250px">
+        
+                <h2>Home Cleaning</h2>
+              </div>
+
+              <div class="category" >
+                <img src="./images/store.jpg" width="300px" height="250px">
+        
+                <h2>Products Store</h2>
+              </div>
+            <!-- Add more categories as needed -->
+          </div>
+
+          
+            <h1>Hot Deals</h1> 
+            <div class="carousel-container">
+              <div class="carousel-slide">
+                <img class="carousel-image" src="./images/laundry.jpg" alt="Image 1">
+                <img class="carousel-image" src="images/dry.jpg" alt="Image 2">
+                <img class="carousel-image" src="images/ironing.jpg" alt="Image 3">
+              </div>
+              <div class="carousel-navigation">
+                <button class="carousel-btn prev-btn">Prev</button>
+                <button class="carousel-btn next-btn">Next</button>
+              </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        
+
+    </div>
+  
+  
+</main>
+<!-- <footer>
+  <p>&copy; 2024 Simple E-Commerce Store. All rights reserved.</p>
+</footer> -->
+
+<script src="index.js"></script>
+</body>
+</html>
